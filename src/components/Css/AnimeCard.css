@@ -1,0 +1,30 @@
+.aFullCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 180;
+    margin: 1.2em 1.5em;
+    
+}
+.aCardImg{
+    width: 180px;
+    height: 255px;
+    object-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+.aCardImg:hover{
+    box-shadow: -10px -10px 10px -5px rgb(72 , 109, 242);
+}
+.aCardImg:active{
+    box-shadow: -5px -5px 10px 0px red;
+}
+.aCardInfo{
+    width: 180px;
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* image px
+192x270 */

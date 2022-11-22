@@ -1,0 +1,42 @@
+.aFoodPage{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.aFoodOne{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 600px;
+    min-width: 400px;
+}
+.aFoodHeader{
+    font-size: 1.8em
+}
+.aFoodTwo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-width: 150px;
+}
+.aFoodThree{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-width: 120px;
+}
+@media screen and (max-width: 670px)  {
+    .aFoodPage{
+        flex-direction: column;
+    }
+    .aFoodOne{
+        margin-bottom: 2em;
+    }
+    .aFoodTwo{
+        margin-bottom: 2em;
+    }
+}

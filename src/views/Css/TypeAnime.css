@@ -1,0 +1,57 @@
+.aTypePage{
+    margin: auto;
+    margin-top: 10vh;
+    max-width: 1000px;
+    min-height: 80vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slider2{
+    display: none;
+}
+.slider3{
+    display: none;
+}
+.slider4{
+    display: none;
+}
+
+@media screen and (max-width: 810px) {
+    .slider1{
+        display: none;
+    }
+    .slider2{
+        display: block;
+    }
+    .slider3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .slider1{
+        display: none;
+    }
+    .slider2{
+        display: none;
+    }
+    .slider3{
+        display: block;
+    }
+}
+@media screen and (max-width: 430px) {
+    .slider1{
+        display: none;
+    }
+    .slider2{
+        display: none;
+    }
+    .slider3{
+        display: none;
+    }
+    .slider4{
+        display: block;
+    }
+}

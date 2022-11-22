@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.animeHead{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    user-select: none;
+}
+.aHeadBtn{
+    color: #F9931E;
+    font-size: 1.2em;
+    padding: 48px 0 0 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.aHeadBtns{
+    text-decoration: none;
+    cursor: pointer;
+}
+.aHeadBtns:visited{
+    color: #F9931E;
+}
+.aHeadBtns:active{
+    opacity: 0.8;
+}
+.aLogoImg{
+    margin: -1em 0 0 0;
+    height: 10em;
+    cursor: pointer;
+}
+.aLogoImg:hover{
+    opacity: 0.8;
+}
+.aLogoImg:active{
+    opacity: 0.5;
+}
+.aLogReg{
+    font-size: 1.2em;
+    padding: 44px 5px 0 0;
+    color: #F25A28;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.aLogRegBtn{
+    margin:0 0.2em;
+    font-weight: bold;
+    padding: 0 1em 0.3em 1.2em;
+    border: 3px #F9931E solid ;
+    border-radius: 5px 40px;
+    backdrop-filter: blur(20px);
+}
+.aLogRegBtn:hover{
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    color: #F9931E;
+    border: 3px #F25A28 dotted;
+}
+.aLogRegBtn:active{
+    border: 3px #F25A28 solid;
+    backdrop-filter: blur(20px);
+}
+.animeTypeDropDown{
+    visibility: hidden;
+    position: absolute;
+    padding: 0.2em 0.3em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 30px;
+    color: #F25A28;
+    border: 3px #F9931E solid;
+    z-index: 9;
+    text-align: center;
+}
+.aDropDownBtns{
+    display: block;
+    text-decoration: none;
+    color: #F25A28;
+}
+.aDropDownBtns:visited{
+    color: #F25A28;
+}
+.aDropDownBtns:hover{
+    color: #F9931E;
+}
+.aDropDownBtns:active{
+    opacity: 0.8;
+}
+.show{
+    visibility: visible;
+}
+
+.iconBody{
+    padding-bottom: 1em ;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.iconImg{
+    width: 3.5em;
+    border-radius: 20px 5px;
+}
+.animeMenuDropDown{
+    visibility: hidden;
+    position: absolute;
+    top: 6em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 30px;
+    color: #F25A28;
+    border: 3px #F9931E solid;
+    z-index: 9;
+    text-align: center;
+    width: 200px;
+    height: 350px;
+}
+
+.animeTypeDropDownMenu{
+    font-family: 'Gloria Hallelujah', cursive;
+    backdrop-filter: blur(20px);
+    visibility: hidden;
+    position: absolute;
+    right: 12.8em;
+    width: 150px;
+    top: 9.3em;
+    padding: 0.2em 0.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 30px;
+    color: #F25A28;
+    border: 3px #F9931E solid;
+    z-index: 9;
+    text-align: center;
+}
+.aDropDownBtns:hover{
+    color: #F9931E;
+}
+.aDropDownBtns:active{
+    opacity: 0.8;
+}
+.show{
+    visibility: visible;
+}
+
+.aLogRegBtnMenu{
+    margin: 0.5em 0.3em;
+    font-weight: bold;
+    padding: 0.5em 1em 0.5em 1.2em;
+    border: 3px #F9931E solid ;
+    border-radius: 5px 40px;
+    backdrop-filter: blur(20px);
+}
+.aLogRegBtnMenu:hover{
+    backdrop-filter: blur(5px);
+    color: #F9931E;
+    border: 3px #F25A28 dotted;
+}
+.aLogRegBtnMenu:active{
+    border: 3px #F25A28 solid;
+    backdrop-filter: blur(20px);
+}
+.aMenuBtn{
+    cursor: pointer;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    margin: 0.5em 0.3em;
+    font-weight: bold;
+    padding: 0.5em 1em 0.5em 1.2em;
+    border: 3px #F9931E solid ;
+    border-radius: 5px 40px;
+    backdrop-filter: blur(20px);
+}
+.aMenuBtnA{
+    display: block;
+    cursor: pointer;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    margin: 0.5em 0.3em;
+    font-weight: bold;
+    padding: 0.5em 1em 0.5em 1.2em;
+    border: 3px #F9931E solid ;
+    border-radius: 5px 40px;
+    backdrop-filter: blur(20px);
+    text-decoration: none;
+}
+.aMenuBtnA:visited{
+    color: #F25A28;
+}
+
+
+@media screen and (max-width: 875px) {
+    .aLogReg{
+        display: none;
+    }
+    .aHeadBtn{
+        display: none;
+    }
+    .iconBody{
+        display: flex;
+    }
+}
