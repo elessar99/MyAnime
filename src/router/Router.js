@@ -5,6 +5,7 @@ import MainView from "../views/MainView";
 import AksiyonAnime from "../views/AksiyonAnime"
 import KomediAnime from "../views/KomediAnime"
 import DogaAnime from "../views/DogaAnime"
+import AnimePage from "../views/AnimePage";
 
 const Router = () => {
     const routes = useRoutes(
@@ -26,8 +27,8 @@ const Router = () => {
                 element: <DogaAnime/>
             },
             {
-                path: '/anime',
-                element: <div/>
+                path: '/anime/:id',
+                element: <AnimePage/>
             },
             {
                 path: '*',

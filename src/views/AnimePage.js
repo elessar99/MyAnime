@@ -1,6 +1,6 @@
 import "./Css/AnimePage.css"
 import PropTypes from "prop-types";
-import AnimeCard from "./AnimeCard";
+import AnimeCard from "../components/AnimeCard";
 import { useState } from "react";
 const AnimePage = ({name,src}) =>{
     const [epKey, setEpKey] = useState(0);

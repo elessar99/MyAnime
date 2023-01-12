@@ -74,9 +74,9 @@ const AnimeHead = ({onPageChange,onLogReg}) =>{
               <div ref={refDropdown3}>
             <div onClick={handleClick3} className="aMenuBtn" style={{marginTop:"2em"}}>anime türleri</div>
               <div className={dropDown3 ? "animeTypeDropDownMenu show":"animeTypeDropDownMenu"}>
-                <div className="aDropDownBtns" onClick={()=>{onPageChange(2)}}>Aksiyon</div>
-                <div className="aDropDownBtns" onClick={()=>{onPageChange(3)}}>Doğaüstü Güç</div>
-                <div className="aDropDownBtns" onClick={()=>{onPageChange(4)}}>Komedi</div>
+                <NavLink className="aDropDownBtns" to={"/action"}>Aksiyon</NavLink>
+                <NavLink className="aDropDownBtns" to={"/supernatural"}>Doğaüstü Güç</NavLink>
+                <NavLink className="aDropDownBtns" to={"/comedy"}>Komedi</NavLink>
               </div>
             <a className="aMenuBtnA" href="https://myanimelist.net/" target="blank">anime haber</a>
             <a className="aMenuBtnA" href="https://myanimelist.net/" target="blank">myAnime</a>

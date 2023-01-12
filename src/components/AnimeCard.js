@@ -1,18 +1,15 @@
 import "./Css/AnimeCard.css"
 import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
 const AnimeCard = ({name,src,onPageChange,nameChange,srcChange}) =>{
     return (
       <>
-      <div className="aFullCard" onClick={()=>{
-        onPageChange(5)
-        nameChange(name)
-        srcChange(src)
-      }}>
+      <NavLink className="aFullCard" to={"/anime/"+name}>
         <img className="aCardImg" src={src}></img>
         <div className="aCardInfo">
         {name}
         </div>
-      </div>
+      </NavLink>
       </>
     );
   }
